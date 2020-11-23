@@ -1,0 +1,33 @@
+.question{
+    background:#222;
+    color: #fff;
+    padding: 100px;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px ;
+}
+.container{
+    padding: 0px 20% 0px 20%;
+
+}
+.anwer div{
+    width: 300px;
+    height: 200px;
+    font-size: 30px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    line-height: 200px;
+}
+#yes{
+    background-color: rgb(23, 126, 23);
+}
+#no{
+    background-color: rgb(175, 9, 9);
+}
+.anwer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
